@@ -14,7 +14,7 @@ x_analog = sin(2*pi*f*t);
 
 
 
-![pic1](../images/1.png)
+![pic1](images/1.png)
 
  
 
