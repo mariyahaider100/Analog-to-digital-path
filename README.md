@@ -12,6 +12,10 @@ f = 100;                 % frequency = 100 Hz
 
 x_analog = sin(2*pi*f*t);
 
+
+
+![pic1](../images/pic1.png)
+
  
 
 figure;
@@ -39,6 +43,7 @@ n = 0:Ts:0.01;           % Discrete sample points
 x_sampled = sin(2*pi*f*n);
 
  
+![pic1](../images/pic1.png)
 
 figure;
 
@@ -69,6 +74,7 @@ x_max = max(x_sampled);
 q_step = (x_max - x_min)/levels;    % Step size
 
  
+![pic3](../images/pic3.png)
 
 x_index = round((x_sampled - x_min)/q_step); % Map samples to indices
 
